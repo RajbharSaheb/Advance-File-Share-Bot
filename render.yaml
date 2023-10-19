@@ -18,10 +18,10 @@ services:
         sync: false
       - key: DATABASE_NAME
         sync: false
-      - key: DATABASE_URI
+      - key: DATABASE_URL
         sync: false 
-      - key: PICS
+      - key: OWNER_ID
         sync: false
-      - key: LOG_CHANNEL
+      - key: CHANNEL_ID
         sync: false    
     autoDeploy: false 
